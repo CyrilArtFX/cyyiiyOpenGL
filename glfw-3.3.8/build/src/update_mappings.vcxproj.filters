@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\MinecraftOpenGL\glfw-3.3.8\build\CMakeFiles\9d5eecf9177ec8675b9e8d2c97a4d2b7\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MinecraftOpenGL\glfw-3.3.8\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\MinecraftOpenGL\glfw-3.3.8\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="F:\MinecraftOpenGL\glfw-3.3.8\CMake\GenerateMappings.cmake" />
+    <None Include="F:\MinecraftOpenGL\glfw-3.3.8\build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8412CC5B-F930-398E-9118-971557DE3606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{82E35014-7849-303F-9E77-7C7F450002CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

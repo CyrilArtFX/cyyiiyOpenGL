@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\MinecraftOpenGL\glfw-3.3.8\build\CMakeFiles\dd4adb3396d0bad0d0def79a7c2eedb3\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8412CC5B-F930-398E-9118-971557DE3606}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

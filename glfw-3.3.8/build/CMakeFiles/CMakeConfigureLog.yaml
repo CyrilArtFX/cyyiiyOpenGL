@@ -1,0 +1,282 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.3.1+2badb37d1 for .NET Framework
+      La g‚n‚ration a d‚marr‚ 28/08/2023 12:19:07.
+      Projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj" sur le noud 1 (cibles par d‚faut).
+      PrepareForBuild:
+        Cr‚ation du r‚pertoire "Debug\\".
+        Cr‚ation du r‚pertoire "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Cr‚ation de "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Mise … jour de l'horodatage "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      G‚n‚ration du projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj" termin‚e (cibles par d‚faut).
+      
+      La g‚n‚ration a r‚ussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps ‚coul‚ 00:00:00.86
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/3.27.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-yybo04"
+      binary: "F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-yybo04"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-yybo04'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a9fc7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 28/08/2023 12:19:08.
+        Projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yybo04\\cmTC_a9fc7.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_a9fc7.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yybo04\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_a9fc7.dir\\Debug\\cmTC_a9fc7.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_a9fc7.dir\\Debug\\cmTC_a9fc7.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9fc7.dir\\Debug\\\\" /Fd"cmTC_a9fc7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.33.31630 pour x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9fc7.dir\\Debug\\\\" /Fd"cmTC_a9fc7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yybo04\\Debug\\cmTC_a9fc7.exe" /INCREMENTAL /ILK:"cmTC_a9fc7.dir\\Debug\\cmTC_a9fc7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-yybo04/Debug/cmTC_a9fc7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-yybo04/Debug/cmTC_a9fc7.lib" /MACHINE:X64  /machine:x64 cmTC_a9fc7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a9fc7.vcxproj -> F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yybo04\\Debug\\cmTC_a9fc7.exe
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_a9fc7.dir\\Debug\\cmTC_a9fc7.tlog\\unsuccessfulbuild".
+          Mise … jour de l'horodatage "cmTC_a9fc7.dir\\Debug\\cmTC_a9fc7.tlog\\cmTC_a9fc7.lastbuildstate".
+        G‚n‚ration du projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yybo04\\cmTC_a9fc7.vcxproj" termin‚e (cibles par d‚faut).
+        
+        La g‚n‚ration a r‚ussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-k7cmup"
+      binary: "F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-k7cmup"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/MinecraftOpenGL/glfw-3.3.8/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-k7cmup'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6b192.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 28/08/2023 12:19:09.
+        Projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\cmTC_6b192.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_6b192.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_6b192.dir\\Debug\\cmTC_6b192.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_6b192.dir\\Debug\\cmTC_6b192.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b192.dir\\Debug\\\\" /Fd"cmTC_6b192.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\src.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.33.31630 pour x64
+          src.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b192.dir\\Debug\\\\" /Fd"cmTC_6b192.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\src.c"
+        F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier includeÿ: 'pthread.h'ÿ: No such file or directory [F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\cmTC_6b192.vcxproj]
+        G‚n‚ration du projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\cmTC_6b192.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\cmTC_6b192.vcxproj" (cible par d‚faut) (1) ->
+        (ClCompile cible) -> 
+          F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier includeÿ: 'pthread.h'ÿ: No such file or directory [F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7cmup\\cmTC_6b192.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-7jllcz"
+      binary: "F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-7jllcz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/MinecraftOpenGL/glfw-3.3.8/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-7jllcz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e240.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 28/08/2023 12:19:10.
+        Projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\cmTC_6e240.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_6e240.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_6e240.dir\\Debug\\cmTC_6e240.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_6e240.dir\\Debug\\cmTC_6e240.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e240.dir\\Debug\\\\" /Fd"cmTC_6e240.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.33.31630 pour x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e240.dir\\Debug\\\\" /Fd"cmTC_6e240.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\Debug\\cmTC_6e240.exe" /INCREMENTAL /ILK:"cmTC_6e240.dir\\Debug\\cmTC_6e240.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-7jllcz/Debug/cmTC_6e240.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-7jllcz/Debug/cmTC_6e240.lib" /MACHINE:X64  /machine:x64 cmTC_6e240.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\cmTC_6e240.vcxproj]
+        G‚n‚ration du projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\cmTC_6e240.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\cmTC_6e240.vcxproj" (cible par d‚faut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jllcz\\cmTC_6e240.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-ozdat1"
+      binary: "F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-ozdat1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/MinecraftOpenGL/glfw-3.3.8/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-ozdat1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fa216.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        La g‚n‚ration a d‚marr‚ 28/08/2023 12:19:10.
+        Projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\cmTC_fa216.vcxproj" sur le noud 1 (cibles par d‚faut).
+        PrepareForBuild:
+          Cr‚ation du r‚pertoire "cmTC_fa216.dir\\Debug\\".
+          Cr‚ation du r‚pertoire "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\Debug\\".
+          Cr‚ation du r‚pertoire "cmTC_fa216.dir\\Debug\\cmTC_fa216.tlog\\".
+        InitializeBuildStatus:
+          Cr‚ation de "cmTC_fa216.dir\\Debug\\cmTC_fa216.tlog\\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa216.dir\\Debug\\\\" /Fd"cmTC_fa216.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.33.31630 pour x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa216.dir\\Debug\\\\" /Fd"cmTC_fa216.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\Debug\\cmTC_fa216.exe" /INCREMENTAL /ILK:"cmTC_fa216.dir\\Debug\\cmTC_fa216.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-ozdat1/Debug/cmTC_fa216.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/CMakeScratch/TryCompile-ozdat1/Debug/cmTC_fa216.lib" /MACHINE:X64  /machine:x64 cmTC_fa216.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\cmTC_fa216.vcxproj]
+        G‚n‚ration du projet "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\cmTC_fa216.vcxproj" termin‚e (cibles par d‚faut) -- \xc2\x90CHEC.
+        
+        \xc2\x90CHEC de la build.
+        
+        "F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\cmTC_fa216.vcxproj" (cible par d‚faut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [F:\\MinecraftOpenGL\\glfw-3.3.8\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ozdat1\\cmTC_fa216.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps ‚coul‚ 00:00:00.37
+        
+      exitCode: 1
+...
