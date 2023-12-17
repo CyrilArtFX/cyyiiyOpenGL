@@ -40,7 +40,7 @@
  *  The values in this enumeration are based on the USB usage page standard:
  *  https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf
  */
-typedef enum
+typedef enum : uint32_t
 {
     SDL_SCANCODE_UNKNOWN = 0,
 
@@ -404,13 +404,13 @@ SDL_SCANCODE_MODE = 257,    /**< I'm not sure if this is really not covered
 
     /* Add any other keys here. */
 
+    SDL_MOUSE_LEFT = 400,
+    SDL_MOUSE_MIDDLE = 401,
+    SDL_MOUSE_RIGHT = 402,
+
     SDL_NUM_SCANCODES = 512, /**< not a key, just marks the number of scancodes
                                  for array bounds */
 
-
-    SDL_MOUSE_LEFT = 1000,
-    SDL_MOUSE_MIDDLE = 1001,
-    SDL_MOUSE_RIGHT = 1002
 
 } SDL_Scancode;
 
