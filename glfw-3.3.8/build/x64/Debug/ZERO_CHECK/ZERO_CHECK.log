@@ -1,1 +1,6 @@
 ﻿  1>Checking Build System
+  CMake is re-running because F:/MinecraftOpenGL/glfw-3.3.8/build/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "F:/MinecraftOpenGL/glfw-3.3.8" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.
+  Le système ne trouve pas le nom de fichier de commandes - VCEnd
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(237,5): error MSB8066: Custom build for 'F:\MinecraftOpenGL\glfw-3.3.8\build\CMakeFiles\dd4adb3396d0bad0d0def79a7c2eedb3\generate.stamp.rule' exited with code 1.

@@ -1,5 +1,7 @@
-﻿  Building Custom Rule F:/MinecraftOpenGL/glfw-3.3.8/tests/CMakeLists.txt
-  reopen.c
-  glad_gl.c
-  Génération de code en cours...
-  reopen.vcxproj -> F:\MinecraftOpenGL\glfw-3.3.8\build\tests\Debug\reopen.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project 'F:\MinecraftOpenGL\glfw-3.3.8\build\ZERO_CHECK.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project 'F:\MinecraftOpenGL\glfw-3.3.8\build\src\glfw.vcxproj' does not exist.
+  Building Custom Rule F:/MinecraftOpenGL/glfw-3.3.8/tests/CMakeLists.txt
+  CMake is re-running because F:/MinecraftOpenGL/glfw-3.3.8/build/tests/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "F:/MinecraftOpenGL/glfw-3.3.8" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'F:\MinecraftOpenGL\glfw-3.3.8\tests\CMakeLists.txt' exited with code 1.

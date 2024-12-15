@@ -1,0 +1,5 @@
+﻿  Building Custom Rule F:/MinecraftOpenGL/glfw-3.3.8/tests/CMakeLists.txt
+  joysticks.c
+  glad_gl.c
+  Generating Code...
+  joysticks.vcxproj -> F:\MinecraftOpenGL\glfw-3.3.8\build\tests\Release\joysticks.exe
